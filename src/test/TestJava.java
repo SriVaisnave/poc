@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 public class TestJava extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		System.out.println("Hurray!!! My First Java App in OpenShift!!!");
+//		System.out.println("Hurray!!! My First Java App in OpenShift!!!");
 		
 		SpringApplication.run(TestJava.class, args);
 

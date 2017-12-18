@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>basic_spring</groupId>
-  <artifactId>springboot</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>first</name>
+  <groupId>test</groupId>
+  <artifactId>test</artifactId>
+  <version>1.0</version>
+ 
   
   <packaging>war</packaging>
   
@@ -64,16 +64,16 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                        <configuration>
-                            <mainClass>test.TestJava</mainClass>
-                         </configuration>
-                    </execution>
-                </executions>
+<!-- 				<executions> -->
+<!--                     <execution> -->
+<!--                         <goals> -->
+<!--                             <goal>repackage</goal> -->
+<!--                         </goals> -->
+<!--                         <configuration> -->
+<!--                             <mainClass>test.TestJava</mainClass> -->
+<!--                          </configuration> -->
+<!--                     </execution> -->
+<!--                 </executions> -->
 			</plugin>
 			<plugin>
                 <groupId>org.apache.maven.plugins</groupId>

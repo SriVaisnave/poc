@@ -51,7 +51,7 @@
                             <goal>repackage</goal>
                         </goals>
                         <configuration>
-                            <mainClass>test.Application</mainClass>
+                            <mainClass>test1.Application</mainClass>
                          </configuration>
                     </execution>
                 </executions>

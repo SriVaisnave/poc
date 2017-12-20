@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan
 @EnableAutoConfiguration
 @SpringBootApplication
-public class Application extends SpringBootServletInitializer {
+public class Application {
 
 	public static void main(String[] args) {
 //		System.out.println("Hurray!!! My First Java App in OpenShift!!!");
@@ -20,10 +20,10 @@ public class Application extends SpringBootServletInitializer {
 
 	}
 	
-	 @Override
-	    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-	        return application.sources(Application.class);
-	    }
+//	 @Override
+//	    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+//	        return application.sources(Application.class);
+//	    }
 
 }
 

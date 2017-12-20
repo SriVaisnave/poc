@@ -1,11 +1,11 @@
-package test;
+package test1;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 class HomeController {
-	@RequestMapping("hello")
+	@RequestMapping("/")
 	String hello() {
 		return "Hiii";
 	}
